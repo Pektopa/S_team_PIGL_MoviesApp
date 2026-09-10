@@ -1,0 +1,142 @@
+.debug-yellow {
+    /*-fx-border-color: yellow;*/
+}
+
+.debug-blue {
+    /*-fx-border-color: blue;*/
+}
+
+.leftPane {
+    -fx-background-image: url('images/left-corner-pattern.png');
+}
+
+.rightStackPane {
+    -fx-border-width: 0 0 0 1;
+    -fx-border-color: #9d36f7;
+    -fx-background-color: #0f0d13;
+    -fx-effect: dropshadow(gaussian, #9d36f7, 5, 0.1, 0, 0);
+}
+
+.rightScrollPane {
+    -fx-effect: innershadow(gaussian, black, 30, 0.1 ,0, 0);
+    -fx-background-image: url('images/background-pattern.png');
+    -fx-background-size: cover;
+    -fx-background: transparent;
+}
+
+.imagePane {
+    /*-fx-background-color: green;*/
+}
+
+.vBox {
+    -fx-margin: 20px;
+}
+
+.left-pane-label {
+    -fx-font-family: 'GROBOLD';
+    -fx-font-size: 20px;
+    -fx-text-fill: #e5e5e5;
+}
+
+.black-field {
+    -fx-background-color: #0f0d13;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-border-width: 1;
+    -fx-font-family: 'Source Sans Pro';
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+}
+
+.searchIcon {
+    -fx-background-image: url('./images/search-icon.png');
+    -fx-background-size: 30;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: left center;
+    -fx-padding: 0.333333em 0.333333em 0.333333em 2em;
+}
+
+.button {
+    -fx-font-size: 20px;
+    -fx-font-family: 'GROBOLD';
+}
+
+.red-button {
+    -fx-background-color: #E50914;
+    -fx-text-fill: #e5e5e5;
+}
+
+.red-button:hover {
+    -fx-background-color: #e5e5e5;
+    -fx-text-fill: #E50914;
+    -fx-cursor: hand;
+}
+
+.white-button {
+    -fx-background-color: #e5e5e5;
+    -fx-text-fill: #9d36f7;
+}
+
+.white-button:hover {
+    -fx-background-color: #e5e5e5;
+    -fx-text-fill: #E50914;
+    -fx-cursor: hand;
+}
+
+.purple-button {
+    -fx-background-color: #9d36f7;
+    -fx-text-fill: #e5e5e5;
+}
+
+.purple-button:hover{
+    -fx-background-color: #e5e5e5;
+    -fx-text-fill: #9d36f7;
+    -fx-cursor: hand;
+}
+
+.yellow-button {
+    -fx-background-color: #d7982f;
+    -fx-text-fill: #e5e5e5;
+}
+
+.yellow-button:hover{
+    -fx-background-color: #e5e5e5;
+    -fx-text-fill: #d7982f;
+    -fx-cursor: hand;
+}
+
+.scroll-bar {
+    -fx-background-color: #0f0d13;
+    -fx-border-color: #e5e5e5;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #9d36f7;
+    -fx-background-insets: 2;
+    -fx-background-radius: 5;
+}
+
+.scroll-bar .thumb:hover {
+    -fx-background-color: #9d36f7;
+}
+
+.scroll-bar .increment-button,
+.scroll-bar .decrement-button {
+    -fx-background-color: #0f0d13;
+}
+
+.scroll-bar .increment-arrow,
+.scroll-bar .decrement-arrow {
+    -fx-background-color: #9d36f7;
+}
+
+.appTitlePane {
+    -fx-font-family: 'Watched';
+    -fx-font-size: 60px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #E50914;
+    -fx-text-alignment: CENTER;
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+    -fx-padding: 0px;
+}
